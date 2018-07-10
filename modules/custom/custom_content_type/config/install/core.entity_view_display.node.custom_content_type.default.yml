@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.custom_content_type.body
+    - field.field.node.custom_content_type.field_date
+    - field.field.node.custom_content_type.field_gender
+    - node.type.custom_content_type
+  module:
+    - datetime
+    - options
+    - text
+    - user
+id: node.custom_content_type.default
+targetEntityType: node
+bundle: custom_content_type
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_gender:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

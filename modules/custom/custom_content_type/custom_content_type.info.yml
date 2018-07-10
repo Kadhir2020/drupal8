@@ -1,0 +1,15 @@
+name: 'Custom Content Type'
+description: 'Provides Custom Content Type content type and related configuration. Custom Content Type'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - datetime
+  - field
+  - menu_ui
+  - node
+  - options
+  - path
+  - text
+  - user
+  - views

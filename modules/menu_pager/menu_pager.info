@@ -1,0 +1,11 @@
+name = Menu Pager
+description = Adds a block to navigate to the current page's previous and next menu links.
+core = 7.x
+dependencies[] = menu
+
+; Information added by Drupal.org packaging script on 2017-01-16
+version = "7.x-1.2"
+core = "7.x"
+project = "menu_pager"
+datestamp = "1484584087"
+
